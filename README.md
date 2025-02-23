@@ -1,4 +1,4 @@
-# Thrush programming language syntax
+# Syntax
 
 > [!WARNING]  
 > This syntax is subject to change and does not fully represent the final syntax of the programming language.
