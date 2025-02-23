@@ -1,5 +1,7 @@
 # Classes
 
+The classes inside are **practically structures**, with a lot of visual and compile-time abstraction. It does not require the compiler to be expanded in the generation.
+
 ```swift
 public class MyClass {
 

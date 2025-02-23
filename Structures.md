@@ -1,5 +1,7 @@
 # Structures
 
+Structs are deallocated from memory automatically, but there is a caveat when it comes to recursive types: the same type within the same type; this must be handled by the programmer, using instructions like `extract` and `free`, manually. Since structs will always be allocated to the heap.
+
 ```rust
 // Struct definition
 
