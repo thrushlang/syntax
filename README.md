@@ -1,3 +1,7 @@
+<p align="center">
+  <img src= "https://github.com/thrushlang/syntax/blob/master/assets/thrush.png" alt= "logo" style= "width: 2hv; height: 2hv;"> </img>
+</p>
+
 # Syntax
 
 > [!WARNING]  
