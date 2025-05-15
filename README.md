@@ -5,6 +5,6 @@
 # Syntax
 
 > [!WARNING]  
-> This repository may be outdated as the compiler and language syntax receive updates more often.
+> The compiler updates faster than this repository, so not everything can be compiled by the current compiler. This is speculative.
 
-This repo contains information on syntax speculation for the Thrush Programming Language. From structures, primitive types, functions, variables, and much more.
+This repository contains information about the syntax of the language in general.
