@@ -1,6 +1,6 @@
 ## General Information
 
-Methods in thrush are called ``bindings``, they allow you to create methods for a type of structure.
+Methods in thrush are called ``methods`` literally, they allow you to create methods for a type of structure.
 
 ```rust
 struct MyStruct {
@@ -9,8 +9,8 @@ struct MyStruct {
     matter: bool
 }
 
-bindings MyStruct {
-    bind new() MyStruct {
+methods MyStruct {
+    def new() MyStruct {
         local my_structure = new MyStruct {
             size: 0,
             length: 0,
@@ -20,15 +20,15 @@ bindings MyStruct {
         return my_structure;
     }
 
-    bind set_size(this mut, new_size: s64) void {
+    def set_size(this mut, new_size: s64) void {
         this.size = new_size;
     }
 
-    bind set_length(this mut, new_length: s32) void {
+    def set_length(this mut, new_length: s32) void {
         this.length = new_length;
     }
 
-    bind set_matter(this mut, new_matter: bool) void {
+    def set_matter(this mut, new_matter: bool) void {
         this.matter = new_matter;
     }
 }
