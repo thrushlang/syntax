@@ -10,7 +10,7 @@ struct MyStruct {
 }
 
 methods MyStruct {
-    def new() MyStruct {
+    fn new() MyStruct {
         local my_structure = new MyStruct {
             size: 0,
             length: 0,
@@ -20,15 +20,15 @@ methods MyStruct {
         return my_structure;
     }
 
-    def set_size(this mut, new_size: s64) void {
+    fn set_size(this mut, new_size: s64) void {
         this.size = new_size;
     }
 
-    def set_length(this mut, new_length: s32) void {
+    fn set_length(this mut, new_length: s32) void {
         this.length = new_length;
     }
 
-    def set_matter(this mut, new_matter: bool) void {
+    fn set_matter(this mut, new_matter: bool) void {
         this.matter = new_matter;
     }
 }
