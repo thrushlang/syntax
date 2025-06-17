@@ -8,8 +8,14 @@ Low-level instructions are a high-level version of IR, allowing the programmer t
 
 Allows you to allocate a memory space in any location.
 
+Valid site allocations:
+
+- ``@stack``
+- ``@heap``
+- ``@static``
+
 ```rust
-instr new_value_allocated: ptr<u8> = alloc stack!, { u8, @align(8) };
+instr new_value_allocated: ptr[u8] = alloc @stack, { u8 };
 ```
 
 ### WRITE (LLI)
@@ -17,7 +23,7 @@ instr new_value_allocated: ptr<u8> = alloc stack!, { u8, @align(8) };
 Allows you to overwrite a value in memory.
 
 ```rust
-write 8, new_value_allocated;
+write new_value_allocated, u8 8;
 ```
 
 ### LOAD (LLI)

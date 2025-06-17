@@ -25,7 +25,7 @@ Calling conventions define how functions pass arguments, return values, and mana
 - ``erlang`` = High-Performance Erlang Compiler (HiPE).
 - ``swift`` = Swift
 
-#### Example:
+#### EXAMPLE
 
 - ``@convention("haskell")``
 
@@ -43,6 +43,15 @@ The attributes from @hot onward guide the compiler to optimize functions by bala
 - ``@weakstack`` = Applies minimal stack protection, trading security for performance.
 - ``@precisefp`` = Ensures precise floating-point operations, avoiding aggressive optimizations that alter results.
 
-## Unique attributes
+## Assembler attributes
 
-`@comptime` This attribute allows code execution at compile time, through a Just In Time Compiler (JIT).
+These attributes are only applicable for assembler functions and assembler values, corresponding to the assembler section in the language syntax.
+
+``@asmthrow`` = Tells the backend that this assembly code may affect the flow and operation of the binary.
+``@asmalingstack`` = Indicates stack alignment, generally not needed.
+``@asmsyntax`` = Indicates the syntax for supporting either AT&T or Intel for x86_64.
+``@asmeffects`` = Tells the backend that errors from the assembler can be propagated.
+
+##### EXAMPLE
+
+``@asmsyntax("AT&T")``
