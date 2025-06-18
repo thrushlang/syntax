@@ -31,7 +31,7 @@ Primitive types are types built into the language, basic and essential.
 
 ## Fixed Array type
 
-- ``[T; N]``
+- ``fixed[T; N]``
 
 ## Array Type
 
