@@ -9,6 +9,6 @@ The **Foreign Function Interface** (FFI) is a mechanism that allows code written
 In Thrush, to call external code, we use the @extern("name") attribute, where the name represents the external function to be searched for at call time. This attribute only applies to functions; it is ignored by other structures.
 
 ```rust
-fn sum(a: u64, b: u64) u64 @extern("sum_c");
+fn sum(a: u64, b: u64) u64 @public @extern("sum_c");
 ```
 
