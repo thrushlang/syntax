@@ -6,7 +6,7 @@
 - Prefer allocation site: ``Stack``.
 - Is it released automatically?: ``Yes``.
 
-## General Information
+## Information
 
 Structures are automatically deallocated from memory when they reach the EFC (End of the Function Context), functioning as destructors embedded in the language.
 

@@ -1,6 +1,6 @@
 # Built-in 'sizeof'
 
-## General Information
+## Information
 
 The ``sizeof`` function is a built-in function that extracts the size of types at compile time and returns a numeric value at runtime. Its uses are exactly the same as ``sizeof()`` in **C**.
 

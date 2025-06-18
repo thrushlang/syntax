@@ -1,6 +1,6 @@
 # Loop
 
-## General Information
+## Information
 
 It's simple infinite loop.
 

@@ -2,7 +2,9 @@
 
 ## Information
 
-The built-in function ``memmove`` has the exact behavior of the one found in the standard C library. For more information: __https://www.man7.org/linux/man-pages/man3/memmove.3p.html__
+The built-in function ``memmove`` has the exact behavior of the one found in the standard C library. 
+
+- For more information: __https://www.man7.org/linux/man-pages/man3/memmove.3p.html__
 
 ### Syntax
 

@@ -1,6 +1,6 @@
 # For loop
 
-## General Information
+## Information
 
 In thrush, the for loop is very identical to the C loop, behaving like one, but with a slightly altered syntax.
 

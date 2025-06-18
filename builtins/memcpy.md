@@ -2,7 +2,9 @@
 
 ## Information
 
-The built-in function ``memcpy`` has the exact behavior of the one found in the standard C library. For more information: __https://man7.org/linux/man-pages/man3/memcpy.3.html__
+The built-in function ``memcpy`` has the exact behavior of the one found in the standard C library. 
+
+- For more information: __https://man7.org/linux/man-pages/man3/memcpy.3.html__
 
 ### Syntax
 

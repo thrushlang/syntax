@@ -1,6 +1,6 @@
 ## Assembler Values
 
-## General Information
+## Information
 
 Assembler values ​​are blocks of code made entirely in assembler that can be used as common values ​​in the language.
 

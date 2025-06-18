@@ -1,6 +1,6 @@
 # Attributes
 
-## General Information
+## Information
 
 Attributes allow you to modify code generation, code execution, visibility, 
 call conventions, memory management, and much more. They are direct code modifiers.

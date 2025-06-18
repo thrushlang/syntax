@@ -1,6 +1,6 @@
 # Enums
 
-## General Information
+## Information
 
 In thrush enums allow you to have constants as variants of enums, in addition to dynamic values.
 

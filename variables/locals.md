@@ -1,6 +1,6 @@
 # Locals
 
-## General Information
+## Information
 
 In Thrush, variables have visibility types; in this case, local visibility.
 

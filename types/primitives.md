@@ -1,6 +1,6 @@
 # Primitives types
 
-## General Information
+## Information
 
 Primitive types are types built into the language, basic and essential.
 

@@ -1,6 +1,6 @@
 # Functions
 
-## General Information
+## Information
 
 Functions allow you to execute code in a block and different context.
 

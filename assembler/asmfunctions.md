@@ -1,6 +1,6 @@
 # Assembler Functions
 
-## General Information
+## Information
 
 Assembler functions are purely assembler-based functions. They support Intel & AT&T x86_64 assembler.
 
