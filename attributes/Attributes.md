@@ -47,10 +47,10 @@ The attributes from @hot onward guide the compiler to optimize functions by bala
 
 These attributes are only applicable for assembler functions and assembler values, corresponding to the assembler section in the language syntax.
 
-``@asmthrow`` = Tells the backend that this assembly code may affect the flow and operation of the binary.
-``@asmalingstack`` = Indicates stack alignment, generally not needed.
-``@asmsyntax`` = Indicates the syntax for supporting either AT&T or Intel for x86_64.
-``@asmeffects`` = Tells the backend that errors from the assembler can be propagated.
+- ``@asmthrow`` = Tells the backend that this assembly code may affect the flow and operation of the binary.
+- ``@asmalingstack`` = Indicates stack alignment, generally not needed.
+- ``@asmsyntax`` = Indicates the syntax for supporting either AT&T or Intel for x86_64.
+- ``@asmeffects`` = Tells the backend that errors from the assembler can be propagated.
 
 ##### EXAMPLE
 
