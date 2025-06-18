@@ -40,3 +40,14 @@ Primitive types are types built into the language, basic and essential.
 ## Pointer Type
 
 - ``ptr[T]``
+
+## High Level Pointer Type
+
+High-level pointers are named for a class of characteristics that require the use of memory-safe patterns when using this specific type. Some of their characteristics are:
+
+- They are only one depth.
+- Avoid memory aliasing at all costs.
+
+### Syntax
+
+- ``mut T``
