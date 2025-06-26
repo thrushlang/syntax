@@ -1,21 +1,13 @@
 ## Assembler Values
 
-## Information
-
 Assembler values ​​are blocks of code made entirely in assembler that can be used as common values ​​in the language.
 
-```rust
-asmfn invoke_exit_syscall() void {
-    "mov $$60, %rax",
-    "mov $$1, %rdi",
-    "syscall" // Assembler Code
-} { 
-    "~{rax}~{rdi}" // Contraints
-}
+## Code
 
+```rust
 fn main() {
 
-    local a: u32 = asm u32 {
+    local whatever: u32 = asm u32 {
         "mov $$42, %eax"
     } {
         ""

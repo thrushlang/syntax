@@ -1,8 +1,8 @@
 # Assembler Functions
 
-## Information
-
 Assembler functions are purely assembler-based functions. They support Intel & AT&T x86_64 assembler.
+
+## Code
 
 ```rust
 asmfn invoke_exit_syscall() void {

@@ -1,8 +1,8 @@
 # Loop
 
-## Information
-
 It's simple infinite loop.
+
+## Code
 
 ```rust
 loop {

@@ -1,8 +1,8 @@
 # Enums
 
-## Information
-
 In thrush enums allow you to have constants as variants of enums, in addition to dynamic values.
+
+## Code
 
 ```rust
 enum Colors {

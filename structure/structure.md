@@ -1,14 +1,13 @@
 # Structures
 
+Structures behave like in languages ​​like C. They are traditional structures.
+
 ## Memory Information
 
 - Allocation site: ``Stack or Heap``.
 - Prefer allocation site: ``Stack``.
-- Is it released automatically?: ``Yes``.
 
-## Information
-
-Structures are automatically deallocated from memory when they reach the EFC (End of the Function Context), functioning as destructors embedded in the language.
+## Code
 
 ```rust
 struct MyStruct {
@@ -26,7 +25,7 @@ struct MyStruct {
 };
 
 fn main() {
-    local some_struct: MyStruct = new MyStruct {
+    local some_struct: MyStruct = MyStruct {
         matter: true,
         length: 12,
         size: 12312

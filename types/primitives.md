@@ -1,7 +1,5 @@
 # Primitives types
 
-## Information
-
 Primitive types are types built into the language, basic and essential.
 
 ## Integer Types
@@ -22,24 +20,24 @@ Primitive types are types built into the language, basic and essential.
 
 ## Floating-Point Types
 
-- ``f32``
-- ``f64``
+- ``f32`` Floating-Point Type 32 bits (IEEE 754, single precision)
+- ``f64`` Floating-Point Type 64 bits (IEEE 754, double precision)
 
 ## Boolean type
 
-- ``bool``
+- ``bool`` Boolean logical type.
 
 ## Fixed Array type
 
-- ``fixed[T; N]``
+- ``fixed[T; N]`` Type with a size that is known at compile time.
 
 ## Array Type
 
-- ``[T]``
+- ``[T]`` Type with a size that is known at runtime.
 
 ## Pointer Type
 
-- ``ptr[T]``
+- ``ptr[T]`` C-style pointers, but strongly typed.
 
 ## High Level Pointer Type
 
@@ -47,7 +45,8 @@ High-level pointers are named for a class of characteristics that require the us
 
 - They are only one depth.
 - Avoid memory aliasing at all costs.
+- Pointer types are not supported. Only values.
 
-### Syntax
+### Code
 
 - ``mut T``
