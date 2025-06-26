@@ -2,6 +2,8 @@
 
 The built-in ``alignof`` function extracts the memory alignment of a specific type at compile time. It is deterministic, corresponding to the architecture and type.
 
+## Types
+
 - ``type`` **u32**
 - ``args`` **T** (Any type, or reference)
 
