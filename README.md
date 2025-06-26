@@ -9,7 +9,7 @@
 
 This repository contains detailed and general information about the syntax; it is not documentation as such; it is intended to guide you in developing the compiler and the language.
 
-This repository details:
+## > Content
 
 - ``assembler/`` Information about pure assembler-type functions and assembler values ​​treated as conventional expressions.
 - ``attributes/`` Attributes are compile-time code generation modifiers that can modify the behavior of code at runtime.
