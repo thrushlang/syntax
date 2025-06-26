@@ -24,5 +24,4 @@ This repository details:
 - ``variables/`` Types of variables and their mutation.
 - 
 - ``deref/`` High-level pointer dereferencing system ``mut T`` and raw pointers ``ptr[T]``, or ``ptr``.
-
 - ``lli/`` Low-level instructions, explicit memory allocation, overwriting of memory values, loading memory, and calculating memory indexes into pointers.
