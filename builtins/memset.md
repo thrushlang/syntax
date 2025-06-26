@@ -1,12 +1,15 @@
-# Built-in 'memset'
-
-## Information
+# memset(ptr, u32 | u64, u32 | u64) void
 
 The built-in function ``memset`` has the exact behavior of the one found in the standard C library. 
 
 - For more information: __https://man7.org/linux/man-pages/man3/memset.3.html__
 
-### Syntax
+## Types
+
+- ``type`` **void**
+- ``args`` **ptr**, **u32** | **u64**, **u32** | **u64**
+
+### Code
 
 ```rust
 fn main() {
