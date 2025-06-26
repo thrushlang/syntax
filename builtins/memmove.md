@@ -4,7 +4,7 @@ The built-in function ``memmove`` has the exact behavior of the one found in the
 
 - For more information: __https://www.man7.org/linux/man-pages/man3/memmove.3p.html__
 
-## Type Metadata 
+## Types
 
 - ``type`` **ptr**
 - ``args`` **ptr**, **ptr**, **u32** | **u64**
