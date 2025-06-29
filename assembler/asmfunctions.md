@@ -13,9 +13,10 @@ asmfn invoke_exit_syscall() void {
     "~{rax}~{rdi}" // Constraints
 }
 
-fn main() {
+fn main() u32 {
 
-  invoke_exit_syscall();
+    invoke_exit_syscall();
+    return 0;
 
 }
 ```
