@@ -12,12 +12,14 @@ The built-in function ``memcpy`` has the exact behavior of the one found in the 
 ### Code
 
 ```rust
-fn main() {
+fn main() u32 {
 
     instr a: ptr[u32] = alloc @stack { u32 };
     instr b: ptr[u32] = alloc @stack { u32 };
 
     memcpy(b as ptr, a as ptr, sizeof(u32));
+
+    return 0;
 
 }
 ```

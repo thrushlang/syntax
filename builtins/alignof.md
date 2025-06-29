@@ -10,9 +10,11 @@ The built-in ``alignof`` function extracts the memory alignment of a specific ty
 ### Syntax
 
 ```rust
-fn main() {
+fn main() u32 {
 
    local memory_align: u32 = alignof(u8);
+
+   return 0;
 
 }
 ```

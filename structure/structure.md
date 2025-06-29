@@ -24,12 +24,14 @@ struct MyStruct {
     matter bool
 };
 
-fn main() {
-    local some_struct: MyStruct = MyStruct {
+fn main() u32 {
+    local some_struct: MyStruct = new MyStruct {
         matter: true,
         length: 12,
         size: 12312
     };
+
+    return 0;
 }
 ```
 

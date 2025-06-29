@@ -12,11 +12,13 @@ The built-in function ``memset`` has the exact behavior of the one found in the 
 ### Code
 
 ```rust
-fn main() {
+fn main() u32 {
 
     instr a: ptr[u32] = alloc @stack { u32 };
 
     memset(a as ptr, 10, sizeof(u32));
+
+    return 0;
 
 }
 ```

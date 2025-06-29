@@ -15,9 +15,11 @@ Where T is any type respecting the laws of the highest type.
 ## Code
 
 ```rust
-fn main() {
+fn main() u32 {
     local mutable_a: mut u32 = 0; 
 
     local not_mutable_a: u32 = deref mutable_a;
+
+    return 0;
 }
 ```

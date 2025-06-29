@@ -5,7 +5,7 @@ Assembler values ​​are blocks of code made entirely in assembler that can be
 ## Code
 
 ```rust
-fn main(): u32 {
+fn main() u32 {
 
     local whatever: u32 = asm u32 {
         "mov $$42, %eax"

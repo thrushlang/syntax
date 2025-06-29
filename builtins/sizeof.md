@@ -10,11 +10,13 @@ The ``sizeof`` function is a built-in function that extracts the size of types a
 ### Code
 
 ```rust
-fn main() {
+fn main() u32 {
 
     local a: u64 = 10;
 
     local sizeof_a: u32 = sizeof(a);
+
+    return 0;
 
 }
 ```
