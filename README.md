@@ -1,6 +1,4 @@
-<p align="center">
-  <img src= "https://github.com/thrushlang/thrushc/blob/master/assets/thrushlang-v1.6.png" alt= "logo" style= "width: 2hv; height: 2hv;"> </img>
-</p>
+<img src= "https://github.com/thrushlang/.github/blob/main/assets/logos/thrushlang-logo.png" alt= "logo" style= "width: 80%; height: 80%;"> </img>
 
 # Thrush Programming Language | Syntax
 
@@ -9,7 +7,7 @@
 
 This repository contains detailed and general information about the syntax; it is not documentation as such; it is intended to guide you in developing the compiler and the language.
 
-## > Content
+## Content
 
 - ``assembler/`` Information about pure assembler-type functions and assembler values ​​treated as conventional expressions.
 - ``attributes/`` Attributes are compile-time code generation modifiers that can modify the behavior of code at runtime.
